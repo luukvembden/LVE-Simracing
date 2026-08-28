@@ -1,0 +1,74 @@
+/* Mobile-only layout adjustments. Desktop styles remain unchanged. */
+@media (max-width:600px){
+  html,body{overflow-x:hidden}
+  .container{width:min(var(--max),calc(100% - 28px))}
+  .nav-inner{height:64px;gap:14px}
+  .nav-links{top:64px;padding:18px 14px;gap:18px}
+  .nav-links a{font-size:11px}
+  .nav-links a.active:after{bottom:-8px}
+  .menu{font-size:24px}
+  .page-hero{padding:64px 0 46px}
+  .page-hero h1{font-size:52px;letter-spacing:-1px;margin:10px 0 18px}
+  .page-hero p{font-size:14px;line-height:1.55}
+  .section{padding:58px 0}
+  .section-head{margin-bottom:28px}
+  .section-head h2{font-size:38px;line-height:.98}
+  .section-head p{font-size:13px}
+  .hero{min-height:0;padding:54px 0 48px;display:flex;flex-direction:column;align-items:stretch}
+  .hero-content{left:0;width:100%;max-width:none;padding:0 0 26px;margin:0;order:1}
+  .hero-content h1{font-size:54px;line-height:.92;margin:12px 0 20px}
+  .hero-content p{font-size:14px;line-height:1.55}
+  .hero-actions{gap:10px;margin-top:24px}
+  .hero-actions .btn{flex:1 1 140px}
+  .hero-product{position:relative;right:auto;top:auto;width:100%;max-width:360px;margin:0 auto;transform:none;order:2}
+  .hero-product-label{font-size:10px;letter-spacing:.14em}
+  .products{grid-template-columns:1fr}
+  .product-art{height:210px}
+  .product-image{padding:18px}
+  .card-body{padding:18px}
+  .card-body h3{font-size:24px}
+  .resources-section .resources{grid-template-columns:1fr}
+  .resource{padding:20px}
+  .about{grid-template-columns:1fr;gap:30px}
+  .about-story-copy h2{font-size:43px}
+  .about-story-copy p{font-size:14px}
+  .about-visual{max-width:none;padding-top:0}
+  .contact-layout{grid-template-columns:1fr;gap:30px}
+  .contact-intro{padding-top:0}
+  .contact-intro h2{font-size:46px}
+  .contact-intro>p{font-size:14px}
+  .contact-form{padding:22px 18px}
+  .form-row input,.form-row textarea{font-size:16px}
+  .faq{width:100%}
+  .faq details{padding:0 16px;margin-bottom:12px}
+  .faq summary{font-size:14px;line-height:1.35;padding:18px 0}
+  .faq details p{font-size:13px;line-height:1.55;padding:0 0 18px}
+  .manuals-section .resources{grid-template-columns:1fr}
+  .f1-detail-section{padding:36px 0 58px}
+  .product-detail{grid-template-columns:1fr;gap:34px}
+  .detail-art{padding:14px;width:100%}
+  .product-detail>div:last-child{padding-top:0}
+  .product-title{font-size:48px}
+  .specs{grid-template-columns:1fr 1fr;margin:22px 0}
+  .spec{padding:13px 12px}
+  .spec span{font-size:12px}
+  .key-features-section .resources{grid-template-columns:repeat(2,1fr);gap:10px}
+  .key-features-section .resource{padding:14px;min-width:0}
+  .key-features-section .resource h3{font-size:16px;line-height:1.05}
+  .key-features-section .resource p{font-size:11px;line-height:1.4;max-width:16ch}
+  .slideshow-control{width:34px;height:34px;font-size:21px}
+  .slide-dots{margin-top:12px}
+  .cta{padding:34px 0}
+  .cta-inner{align-items:stretch;gap:20px}
+  .cta h2{font-size:32px}
+  .cta .btn{width:100%}
+  .footer{padding:42px 0 24px}
+  .footer-grid{grid-template-columns:1fr;gap:26px}
+  .copy{display:block;line-height:1.5}
+  .copy span{display:block;margin-top:8px}
+  .error-page{min-height:55vh;padding:60px 0}
+  .error-card{padding:24px 18px}
+  .error-actions{flex-direction:column;align-items:stretch}
+  .error-actions .btn{width:100%}
+  .btn{min-height:44px}
+}
